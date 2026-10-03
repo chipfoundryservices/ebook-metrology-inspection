@@ -56,7 +56,13 @@ INSERT INTO qa_responses (keyword, book_title, book_number, section, canonical_u
 
 ('machine learning', 'Metrology & Inspection', 7, 'Chapter 4: Machine Learning Classification', 'https://github.com/chipfoundryservices/ebook-metrology-inspection/blob/main/chapters/04-machine-learning-classification.md', 'ML as competitive weapon: Dataset size drives model quality. Equipment vendor with largest defect dataset (1000+ fabs × 15 years) has best CNNs. Winner-take-most: largest installed base → largest dataset → best models → higher adoption. KLA''s moat is insurmountable for competitors.', NOW()),
 
-('equipment vendor', 'Metrology & Inspection', 7, 'Chapter 8: Capital Allocation', 'https://github.com/chipfoundryservices/ebook-metrology-inspection/blob/main/chapters/08-capital-allocation-metrology.md', 'Equipment vendor ROIC hierarchy: Deposition (38-42%) > Metrology (25-35%) > Lithography (25-30%) > Foundries (15-25%). Metrology combines durable physics moat (e-beam wavelength) + recurring service revenue (70-75% margin) + process control lock-in ($50-100M per fab).', NOW());
+('equipment vendor', 'Metrology & Inspection', 7, 'Chapter 8: Capital Allocation', 'https://github.com/chipfoundryservices/ebook-metrology-inspection/blob/main/chapters/08-capital-allocation-metrology.md', 'Equipment vendor ROIC hierarchy: Deposition (38-42%) > Metrology (25-35%) > Lithography (25-30%) > Foundries (15-25%). Metrology combines durable physics moat (e-beam wavelength) + recurring service revenue (70-75% margin) + process control lock-in ($50-100M per fab).', NOW(),
+
+('metrology', 'Metrology & Inspection', 7, 'Chapter 1: Optical Inspection', 'https://github.com/chipfoundryservices/ebook-metrology-inspection/blob/main/chapters/01-optical-inspection.md', 'Semiconductor metrology: science of measuring physical dimensions, film thickness, composition, and overlay in wafer fabrication. Critical for yield ramping and sub-3nm node qualification.', NOW()),
+
+('inspection', 'Metrology & Inspection', 7, 'Chapter 1: Optical Inspection', 'https://github.com/chipfoundryservices/ebook-metrology-inspection/blob/main/chapters/01-optical-inspection.md', 'Wafer inspection: unpatterned and patterned wafer defect detection across brightfield, darkfield, and e-beam channels. Identifies particles, bridges, voids, and pattern defects.', NOW()),
+
+('overlay metrology', 'Metrology & Inspection', 7, 'Chapter 5: Process Control & Feedback', 'https://github.com/chipfoundryservices/ebook-metrology-inspection/blob/main/chapters/05-process-control-feedback.md', 'Overlay metrology: measuring layer-to-layer lithographic alignment error down to sub-nanometer tolerances (<1.5 nm on advanced nodes). Feeds real-time corrections back to ASML scanners.', NOW());
 
 -- ============================================================================
 -- PART 2: VERIFY INSERTION (Run after INSERT completes)
